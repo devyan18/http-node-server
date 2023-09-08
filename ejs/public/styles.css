@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    min-height: 100vh;
+}
+
+div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    background-color: #3993DD;
+}
+
+aside {
+    width: 20%;
+    background-color: #13B6C5;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: #E0ACD5;
+}
+
+nav {
+    background-color: #DF5C53;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #EAFA73;
+    width: 50%;
+    list-style: none;
+    gap: 20px;
+}
