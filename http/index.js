@@ -3,7 +3,7 @@ const http = require('node:http')
 let contador = 0;
 
 const server = http.createServer((request, response) => {
-    // sirve para solucionar el error de CORS
+    // sirve para solucionar el error de CORS *(NO LE HAGAN CASO)
     response.setHeader('Access-Control-Allow-Origin', '*');
 	response.setHeader('Access-Control-Request-Method', '*');
 	response.setHeader('Access-Control-Allow-Methods', 'OPTIONS, GET');
